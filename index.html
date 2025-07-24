@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cascos Expertise Outsourcing</title>
 
-  <!-- Configuración Tailwind con colores de marca -->
+  <!-- Tailwind + configuración -->
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            primary:  '#4E2D8E',  /* púrpura CEO */
-            graphite: '#323232',  /* fondo oscuro */
-            smoke:    '#F8F8F8',  /* fondo claro */
+            primary: '#4E2D8E',
+            graphite: '#1E1E1E',
+            smoke: '#F9FAFB'
           }
         }
       }
@@ -21,98 +21,77 @@
   </script>
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Tipografía -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <style>body{font-family:Poppins,system-ui,sans-serif}</style>
+  <!-- Fuente Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
 </head>
-
-<body class="text-smoke bg-graphite">
+<body class="bg-graphite text-smoke">
 
   <!-- HERO -->
-  <section class="min-h-[70vh] flex flex-col items-center justify-center bg-gradient-to-b from-graphite to-primary/10 px-4 text-center">
-    <!-- sustituye la ruta si tu logo está en otro lugar -->
-    <img src="img/logo-ceo.png" alt="Cascos Expertise Outsourcing" class="w-64 mb-8">
-    <h1 class="text-3xl md:text-5xl font-semibold max-w-2xl">
-      Fianzas y seguros que protegen tu obra, no tu burocracia.
+  <section class="min-h-[80vh] flex flex-col items-center justify-center px-6 text-center bg-gradient-to-b from-graphite to-primary/10">
+    <img src="img/logo-ceo.png" alt="Logo CEO" class="w-48 mb-6" />
+    <h1 class="text-4xl font-semibold max-w-2xl leading-tight">
+      Fianzas inteligentes. Sin humo. Sin sorpresas.
     </h1>
-    <a href="#contacto"
-       class="mt-10 bg-primary hover:bg-primary/80 px-10 py-4 rounded-lg text-lg font-medium">
-       Solicita diagnóstico sin costo
+    <a href="#contacto" class="mt-8 bg-primary hover:bg-primary/80 px-6 py-3 rounded-lg text-white font-medium text-lg">
+      Solicita diagnóstico sin costo
     </a>
   </section>
 
   <!-- PAQUETES -->
-  <section class="bg-smoke text-graphite py-20">
-    <h2 class="text-center text-2xl font-semibold mb-10">Paquetes de Consultoría Exprés</h2>
-
-    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
-      <!-- Bronce -->
-      <div class="border-2 border-primary rounded-xl p-6 hover:-translate-y-1 transition">
-        <h3 class="text-xl font-semibold mb-4 text-primary">Bronce</h3>
-        <ul class="space-y-2">
-          <li>Revisión de póliza</li>
-          <li>Informe de riesgos</li>
-          <li>Recomendaciones clave</li>
+  <section class="bg-smoke text-graphite py-20 px-6">
+    <h2 class="text-3xl font-semibold text-center mb-12">Paquetes de Consultoría</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="border-2 border-primary rounded-lg p-6 bg-white hover:-translate-y-1 transition">
+        <h3 class="text-xl font-semibold text-primary mb-4">Bronce</h3>
+        <ul class="mb-4 space-y-2 text-sm">
+          <li>✔ Revisión de póliza</li>
+          <li>✔ Informe de riesgos</li>
+          <li>✔ Recomendaciones base</li>
         </ul>
-        <p class="mt-6 text-3xl font-bold">$7 500</p>
+        <p class="text-2xl font-bold">$7 500 MXN</p>
       </div>
-
-      <!-- Plata -->
-      <div class="border-2 border-primary rounded-xl p-6 hover:-translate-y-1 transition">
-        <h3 class="text-xl font-semibold mb-4 text-primary">Plata</h3>
-        <ul class="space-y-2">
-          <li>Todo lo de Bronce</li>
-          <li>Negociación con afianzadora</li>
-          <li>Matriz de contingencias</li>
+      <div class="border-2 border-primary rounded-lg p-6 bg-white hover:-translate-y-1 transition">
+        <h3 class="text-xl font-semibold text-primary mb-4">Plata</h3>
+        <ul class="mb-4 space-y-2 text-sm">
+          <li>✔ Todo lo de Bronce</li>
+          <li>✔ Negociación con afianzadora</li>
+          <li>✔ Matriz de contingencias</li>
         </ul>
-        <p class="mt-6 text-3xl font-bold">$15 000</p>
+        <p class="text-2xl font-bold">$15 000 MXN</p>
       </div>
-
-      <!-- Oro -->
-      <div class="border-2 border-primary rounded-xl p-6 hover:-translate-y-1 transition">
-        <h3 class="text-xl font-semibold mb-4 text-primary">Oro</h3>
-        <ul class="space-y-2">
-          <li>Todo lo de Plata</li>
-          <li>Plan integral de mitigación</li>
-          <li>Mesa ejecutiva de cierre</li>
+      <div class="border-2 border-primary rounded-lg p-6 bg-white hover:-translate-y-1 transition">
+        <h3 class="text-xl font-semibold text-primary mb-4">Oro</h3>
+        <ul class="mb-4 space-y-2 text-sm">
+          <li>✔ Todo lo de Plata</li>
+          <li>✔ Plan integral de mitigación</li>
+          <li>✔ Mesa ejecutiva para cierre</li>
         </ul>
-        <p class="mt-6 text-3xl font-bold">$27 000</p>
+        <p class="text-2xl font-bold">$27 000 MXN</p>
       </div>
-    </div>
-  </section>
-
-  <!-- VENTAJAS COMPETITIVAS -->
-  <section class="py-20">
-    <h2 class="text-center text-2xl font-semibold mb-10">¿Por qué CEO?</h2>
-    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto px-4">
-      <p class="flex gap-4"><span>✔️</span> 20 años negociando con todas las afianzadoras del país.</p>
-      <p class="flex gap-4"><span>✔️</span> Honorarios fijos, sin sorpresas.</p>
-      <p class="flex gap-4"><span>✔️</span> Respuesta ejecutiva &lt; 24 h.</p>
-      <p class="flex gap-4"><span>✔️</span> Procesos respaldados por ISO 9001.</p>
     </div>
   </section>
 
   <!-- FORMULARIO -->
-  <section id="contacto" class="bg-smoke text-graphite py-20">
-    <h2 class="text-center text-2xl font-semibold mb-10">Contáctanos</h2>
-    <form action="https://formspree.io/f/your_form_id" method="POST"
-          class="max-w-lg mx-auto space-y-4 px-4">
-      <input name="nombre" placeholder="Nombre" required
-             class="w-full p-3 rounded bg-white border border-primary/50">
-      <input type="email" name="email" placeholder="Email" required
-             class="w-full p-3 rounded bg-white border border-primary/50">
-      <textarea name="mensaje" rows="4" placeholder="Mensaje" required
-                class="w-full p-3 rounded bg-white border border-primary/50"></textarea>
-      <button class="w-full bg-primary hover:bg-primary/80 py-3 rounded-lg text-white font-medium">
-        Enviar
+  <section id="contacto" class="py-20 px-6 bg-graphite text-smoke">
+    <h2 class="text-3xl font-semibold text-center mb-10">Contáctanos</h2>
+    <form action="https://formspree.io/f/your_form_id" method="POST" class="max-w-xl mx-auto space-y-5">
+      <input name="nombre" required placeholder="Nombre completo" class="w-full p-3 rounded border border-primary bg-white text-graphite" />
+      <input type="email" name="email" required placeholder="Correo electrónico" class="w-full p-3 rounded border border-primary bg-white text-graphite" />
+      <textarea name="mensaje" rows="4" required placeholder="Tu mensaje" class="w-full p-3 rounded border border-primary bg-white text-graphite"></textarea>
+      <button type="submit" class="w-full bg-primary hover:bg-primary/80 text-white py-3 rounded font-semibold">
+        Enviar mensaje
       </button>
     </form>
   </section>
 
-  <footer class="text-center py-8 text-sm text-smoke/70 bg-graphite">
-    © 2025 Cascos Expertise Outsourcing
+  <footer class="text-center text-sm text-gray-400 bg-graphite py-6">
+    © 2025 Cascos Expertise Outsourcing
   </footer>
+
 </body>
 </html>
