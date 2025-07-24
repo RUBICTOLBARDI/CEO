@@ -2,247 +2,173 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>CEO | Fianzas y Consultoría Exprés para Empresas</title>
-  <meta name="description" content="Consultoría experta en fianzas para empresas. Obtén un diagnóstico en 24 horas y ahorra hasta un 20% en tu póliza. Sin burocracia, sin sorpresas.">
-  <meta name="keywords" content="fianzas, consultoría, empresas, pólizas, ahorro, mitigación de riesgos">
-  <meta name="author" content="Cascos Expertise Outsourcing">
-  
-  <meta property="og:title" content="CEO · Fianzas exprés sin burocracia">
-  <meta property="og:description" content="Consultoría exprés en fianzas para empresas sin tiempo: ahorra hasta 20 % en tu póliza con diagnóstico en 24 h.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CEO · Fianzas inteligentes sin sorpresas</title>
+  <meta name="description" content="Ahorra hasta 20 % en tu póliza. Diagnóstico de fianzas en 24 h para empresas que no tienen tiempo que perder.">
+  <meta property="og:title" content="CEO · Fianzas inteligentes sin sorpresas">
+  <meta property="og:description" content="Ahorra hasta 20 % en tu póliza. Diagnóstico de fianzas en 24 h.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rubictolbardi.github.io/CEO/">
-  <meta property="og:image" content="img/logo-ceo-og.png"> <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-
+  <!-- favicon escudo -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Ctext y='14' font-size='14'%3E%F0%9F%9B%A1%EF%B8%8F%3C/text%3E%3C/svg%3E">
+  <!-- Tailwind & Poppins -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  
-  <style>
-    /* Es mejor práctica mantener las fuentes y estilos base en una hoja de estilos externa, pero para este ejemplo se mantiene aquí */
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-  </style>
+  <style>body{font-family:'Poppins',sans-serif}</style>
 </head>
-<body class="bg-neutral-900 text-gray-100 overflow-x-hidden">
-
-  <header class="absolute top-0 left-0 w-full p-6 flex justify-between items-center">
-    <img src="img/logo-ceo.png" alt="Logo de Cascos Expertise Outsourcing" class="w-36">
-    <nav>
-      <a href="#contacto" class="bg-purple-800 hover:bg-purple-700 px-6 py-2 rounded-full text-base font-bold transition-colors">
-        Contactar
-      </a>
-    </nav>
+<body class="bg-[#1E1E1E] text-white overflow-x-hidden scroll-smooth">
+  <!-- Hero -->
+  <header class="min-h-screen flex flex-col items-center justify-center px-6 text-center">
+    <img src="img/logo-ceo.png" alt="Logo CEO" class="w-48 mb-8">
+    <h1 class="text-4xl md:text-5xl font-semibold max-w-2xl mb-8 leading-tight">
+      Fianzas inteligentes. Sin humo, sin sorpresas.
+    </h1>
+    <a href="#contacto" class="bg-[#4E2D8E] hover:bg-[#3d2475] px-10 py-4 rounded-full text-lg font-bold">
+      Solicita diagnóstico sin costo
+    </a>
   </header>
 
-  <main>
-    <section class="min-h-screen flex flex-col items-center justify-center px-6 text-center">
-      <h1 class="text-4xl md:text-5xl font-semibold max-w-2xl mb-6">
-        Fianzas inteligentes. Sin humo, sin sorpresas.
-      </h1>
-      <p class="text-lg text-gray-300 max-w-2xl mb-8">
-        Consultoría exprés para empresas sin tiempo: ahorra hasta un <strong class="text-purple-400">20%</strong> en tu póliza con nuestro diagnóstico en <strong class="text-purple-400">24 horas</strong>.
-      </p>
-      <a href="#contacto" class="bg-purple-800 hover:bg-purple-700 px-8 py-3 rounded-full text-lg font-bold transition-transform hover:scale-105">
-        Solicita tu diagnóstico sin costo
-      </a>
-    </section>
+  <!-- Comparativa -->
+  <section class="py-20 px-4 md:px-8">
+    <h2 class="text-3xl md:text-4xl font-semibold text-center mb-6">CEO vs Competencia</h2>
+    <p class="text-center italic mb-8">Gana hasta <span class="text-[#4E2D8E] font-bold">20 % de ahorro</span> hoy mismo.</p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-left border-collapse bg-neutral-800 rounded-lg shadow-lg md:text-base text-sm">
+        <thead>
+          <tr class="bg-neutral-700">
+            <th class="p-4">Característica</th>
+            <th class="p-4 text-[#4E2D8E] font-semibold">CEO</th>
+            <th class="p-4">Afianza‑MX</th>
+            <th class="p-4">Garantías360</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-neutral-700">
+            <td class="p-4">Tiempo de respuesta</td>
+            <td class="p-4 bg-[#4E2D8E]/20 font-semibold">24 h</td>
+            <td class="p-4">48 h</td>
+            <td class="p-4">72 h</td>
+          </tr>
+          <tr class="border-b border-neutral-700">
+            <td class="p-4">Honorario inicial</td>
+            <td class="p-4 bg-[#4E2D8E]/20 font-semibold">$7 500</td>
+            <td class="p-4">$8 500</td>
+            <td class="p-4">$9 000</td>
+          </tr>
+          <tr class="border-b border-neutral-700">
+            <td class="p-4">Soporte posterior</td>
+            <td class="p-4 bg-[#4E2D8E]/20 font-semibold">6 meses</td>
+            <td class="p-4">3 meses</td>
+            <td class="p-4">1 mes</td>
+          </tr>
+          <tr>
+            <td class="p-4">Flexibilidad póliza</td>
+            <td class="p-4 bg-[#4E2D8E]/20 font-semibold">Alta</td>
+            <td class="p-4">Media</td>
+            <td class="p-4">Baja</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
 
-    <section class="py-16 px-4 md:px-8 bg-neutral-900">
-      <h2 class="text-3xl font-semibold text-center text-white mb-4">Por qué elegir CEO</h2>
-      <p class="text-center italic text-gray-300 mb-8">Gana hasta un <span class="text-purple-800 font-bold">20% de ahorro</span> hoy mismo.</p>
-      <div class="overflow-x-auto">
-        <table class="w-full text-left border-collapse bg-gray-800 rounded-lg shadow-lg">
-          <caption class="text-lg font-bold text-white mb-4 sr-only">Tabla comparativa de servicios de fianza entre CEO, Afianza-MX y Garantías360.</caption>
-          <thead class="bg-gray-700">
-            <tr>
-              <th scope="col" class="p-4">Característica</th>
-              <th scope="col" class="p-4 text-purple-400">CEO</th>
-              <th scope="col" class="p-4">Afianza-MX</th>
-              <th scope="col" class="p-4">Garantías360</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="border-b border-gray-700">
-              <th scope="row" class="p-4">Tiempo de respuesta</th>
-              <td class="p-4 bg-purple-800/20 font-semibold">24 h</td>
-              <td class="p-4">48 h</td>
-              <td class="p-4">72 h</td>
-            </tr>
-            <tr class="border-b border-gray-700">
-              <th scope="row" class="p-4">Honorario inicial</th>
-              <td class="p-4 bg-purple-800/20 font-semibold">$7,500</td>
-              <td class="p-4">$8,500</td>
-              <td class="p-4">$9,000</td>
-            </tr>
-            <tr class="border-b border-gray-700">
-              <th scope="row" class="p-4">Soporte posterior</th>
-              <td class="p-4 bg-purple-800/20 font-semibold">6 meses</td>
-              <td class="p-4">3 meses</td>
-              <td class="p-4">1 mes</td>
-            </tr>
-            <tr>
-              <th scope="row" class="p-4">Flexibilidad de póliza</th>
-              <td class="p-4 bg-purple-800/20 font-semibold">Alta</td>
-              <td class="p-4">Media</td>
-              <td class="p-4">Baja</td>
-            </tr>
-          </tbody>
-        </table>
+  <!-- Paquetes -->
+  <section class="bg-gray-100 text-[#1E1E1E] py-20 px-4 md:px-8">
+    <h2 class="text-3xl md:text-4xl font-semibold text-center mb-10">Paquetes de Servicio</h2>
+    <div class="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+      <div class="bg-white border-2 border-[#4E2D8E] rounded-xl p-8 hover:-translate-y-1 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#4E2D8E] mb-4">Bronce</h3>
+        <ul class="list-disc list-inside space-y-2 mb-6 text-sm">
+          <li>Revisión de póliza</li>
+          <li>Informe de riesgos</li>
+          <li>Recomendaciones clave</li>
+        </ul>
+        <p class="text-2xl font-bold">$7 500 MXN</p>
       </div>
-    </section>
-
-    <section id="paquetes" class="py-16 px-4 md:px-8 bg-gray-100 text-neutral-900">
-      <div class="max-w-6xl mx-auto">
-        <header class="text-center mb-10">
-          <h2 class="text-3xl font-semibold">Paquetes a tu medida</h2>
-          <p class="text-gray-600 mt-2">Soluciones claras y adaptadas a cada necesidad.</p>
-        </header>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <article class="bg-white border-2 border-purple-800 rounded-lg p-6 flex flex-col hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-            <header>
-              <h3 class="text-xl font-semibold text-purple-800 mb-4">Bronce</h3>
-            </header>
-            <ul class="list-disc list-inside mb-6 space-y-2 text-sm flex-grow">
-              <li>Revisión detallada de póliza actual</li>
-              <li>Informe de riesgos y oportunidades</li>
-              <li>Recomendaciones clave de optimización</li>
-            </ul>
-            <footer class="text-center">
-              <p class="text-2xl font-bold">$7,500 MXN</p>
-            </footer>
-          </article>
-          <article class="bg-white border-2 border-purple-800 rounded-lg p-6 flex flex-col hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-            <header>
-              <h3 class="text-xl font-semibold text-purple-800 mb-4">Plata</h3>
-            </header>
-            <ul class="list-disc list-inside mb-6 space-y-2 text-sm flex-grow">
-              <li><strong>Todo lo del paquete Bronce</strong></li>
-              <li>Negociación directa con afianzadora</li>
-              <li>Desarrollo de matriz de contingencias</li>
-            </ul>
-            <footer class="text-center">
-              <p class="text-2xl font-bold">$15,000 MXN</p>
-            </footer>
-          </article>
-          <article class="bg-white border-2 border-purple-800 rounded-lg p-6 flex flex-col hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-            <header>
-              <h3 class="text-xl font-semibold text-purple-800 mb-4">Oro</h3>
-            </header>
-            <ul class="list-disc list-inside mb-6 space-y-2 text-sm flex-grow">
-              <li><strong>Todo lo del paquete Plata</strong></li>
-              <li>Plan integral de mitigación de riesgos</li>
-              <li>Acompañamiento en mesa ejecutiva de cierre</li>
-            </ul>
-            <footer class="text-center">
-              <p class="text-2xl font-bold">$27,000 MXN</p>
-            </footer>
-          </article>
-        </div>
+      <div class="bg-white border-2 border-[#4E2D8E] rounded-xl p-8 hover:-translate-y-1 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#4E2D8E] mb-4">Plata</h3>
+        <ul class="list-disc list-inside space-y-2 mb-6 text-sm">
+          <li>Todo lo de Bronce</li>
+          <li>Negociación con afianzadora</li>
+          <li>Matriz de contingencias</li>
+        </ul>
+        <p class="text-2xl font-bold">$15 000 MXN</p>
       </div>
-    </section>
-
-    <section class="py-16 px-4 md:px-8 bg-neutral-900 text-white">
-      <div class="max-w-5xl mx-auto">
-        <header class="text-center mb-10">
-          <h2 class="text-3xl font-semibold">Beneficios Inmediatos</h2>
-          <p class="text-gray-400 mt-2">Resultados tangibles desde el primer día.</p>
-        </header>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div class="flex items-center gap-4">
-            <svg class="w-8 h-8 text-purple-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-            <div>
-              <h3 class="font-semibold">Diagnóstico en 24h</h3>
-              <p class="text-sm text-gray-400">Análisis rápido para tomar decisiones ágiles.</p>
-            </div>
-          </div>
-          <div class="flex items-center gap-4">
-            <svg class="w-8 h-8 text-purple-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path></svg>
-            <div>
-              <h3 class="font-semibold">Honorarios Fijos</h3>
-              <p class="text-sm text-gray-400">Transparencia total, sin costos ocultos.</p>
-            </div>
-          </div>
-          <div class="flex items-center gap-4">
-            <svg class="w-8 h-8 text-purple-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-            <div>
-              <h3 class="font-semibold">Soporte por 6 Meses</h3>
-              <p class="text-sm text-gray-400">Acompañamiento post-contratación garantizado.</p>
-            </div>
-          </div>
-          <div class="flex items-center gap-4">
-            <svg class="w-8 h-8 text-purple-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-            <div>
-              <h3 class="font-semibold">Flexibilidad Total</h3>
-              <p class="text-sm text-gray-400">Nos adaptamos a las necesidades de tu póliza.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contacto" class="py-16 px-4 md:px-8 bg-gray-100 text-neutral-900">
-      <div class="max-w-lg mx-auto">
-        <header class="text-center mb-10">
-          <h2 class="text-3xl font-semibold">Inicia tu Diagnóstico</h2>
-          <p class="text-gray-600 mt-2">Completa el formulario y un especialista te contactará en menos de 24 horas.</p>
-        </header>
-        <form action="https://formspree.io/f/your_form_id" method="POST" class="space-y-6 bg-white p-8 rounded-lg shadow-lg">
-          <div>
-            <label for="nombre" class="block text-sm font-semibold mb-2">Nombre completo</label>
-            <input id="nombre" name="nombre" type="text" required placeholder="Juan Pérez" class="w-full p-3 rounded border border-purple-800 focus:ring-2 focus:ring-purple-400 outline-none">
-          </div>
-          <div>
-            <label for="email" class="block text-sm font-semibold mb-2">Correo electrónico</label>
-            <input id="email" name="email" type="email" required placeholder="juan.perez@empresa.com" class="w-full p-3 rounded border border-purple-800 focus:ring-2 focus:ring-purple-400 outline-none">
-          </div>
-          <div>
-            <label for="empresa" class="block text-sm font-semibold mb-2">Empresa (Opcional)</label>
-            <input id="empresa" name="empresa" type="text" placeholder="Tu Empresa S.A. de C.V." class="w-full p-3 rounded border border-purple-800 focus:ring-2 focus:ring-purple-400 outline-none">
-          </div>
-          <div>
-            <label for="mensaje" class="block text-sm font-semibold mb-2">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Describe brevemente tu necesidad de fianza o consultoría." class="w-full p-3 rounded border border-purple-800 focus:ring-2 focus:ring-purple-400 outline-none"></textarea>
-          </div>
-          <button type="submit" class="w-full bg-purple-800 hover:bg-purple-700 text-white py-3 rounded font-semibold transition-colors">
-            Enviar y solicitar diagnóstico
-          </button>
-        </form>
-      </div>
-    </section>
-  </main>
-  
-  <footer class="bg-neutral-900 border-t border-gray-700">
-    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      <div class="md:flex md:items-center md:justify-between">
-        <div class="flex justify-center space-x-6 md:order-2">
-          <a href="#" class="text-gray-400 hover:text-white">
-            <span class="sr-only">TikTok</span>
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"></svg>
-          </a>
-          <a href="#" class="text-gray-400 hover:text-white">
-            <span class="sr-only">Facebook</span>
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"></svg>
-          </a>
-          <a href="#" class="text-gray-400 hover:text-white">
-            <span class="sr-only">Instagram</span>
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"></svg>
-          </a>
-          <a href="#" class="text-gray-400 hover:text-white">
-            <span class="sr-only">LinkedIn</span>
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"></svg>
-          </a>
-        </div>
-        <div class="mt-8 md:mt-0 md:order-1">
-          <p class="text-center text-base text-gray-400">&copy; 2025 Cascos Expertise Outsourcing. Todos los derechos reservados.</p>
-          <p class="text-center text-base text-gray-400">Contacto: <a href="mailto:ventas@ceo.mx" class="text-purple-400 hover:underline">ventas@ceo.mx</a></p>
-        </div>
+      <div class="bg-white border-2 border-[#4E2D8E] rounded-xl p-8 hover:-translate-y-1 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#4E2D8E] mb-4">Oro</h3>
+        <ul class="list-disc list-inside space-y-2 mb-6 text-sm">
+          <li>Todo lo de Plata</li>
+          <li>Plan integral de mitigación</li>
+          <li>Mesa ejecutiva de cierre</li>
+        </ul>
+        <p class="text-2xl font-bold">$27 000 MXN</p>
       </div>
     </div>
-  </footer>
+  </section>
 
+  <!-- Beneficios -->
+  <section class="py-20 px-4 md:px-8">
+    <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">Beneficios rápidos</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
+      <div class="flex items-start gap-4">
+        <svg class="w-6 h-6 text-[#4E2D8E]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><title class="sr-only">Tiempo</title><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+        <p>Diagnóstico en 24 h</p>
+      </div>
+      <div class="flex items-start gap-4">
+        <svg class="w-6 h-6 text-[#4E2D8E]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><title class="sr-only">Tarifa fija</title><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <p>Honorarios fijos</p>
+      </div>
+      <div class="flex items-start gap-4">
+        <svg class="w-6 h-6 text-[#4E2D8E]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><title class="sr-only">Escudo</title><path stroke-linecap="round" stroke-linejoin="round" d="M12 2l7 4v6c0 5-7 8-7 8s-7-3-7-8V6l7-4z"/></svg>
+        <p>Protección total</p>
+      </div>
+      <div class="flex items-start gap-4">
+        <svg class="w-6 h-6 text-[#4E2D8E]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><title class="sr-only">Flexibilidad</title><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4"/></svg>
+        <p>Flexibilidad a medida</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario -->
+  <section id="contacto" class="py-20 px-4 md:px-8 bg-gray-100 text-[#1E1E1E]">
+    <h2 class="text-3xl md:text-4xl font-semibold text-center mb-10">Contáctanos</h2>
+    <form action="https://formspree.io/f/your_form_id" method="POST" class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg space-y-6"
+          onsubmit="event.preventDefault();this.reset();document.getElementById('thanks').classList.remove('hidden');">
+      <input name="nombre" placeholder="Nombre completo" required class="w-full p-3 border border-[#4E2D8E] rounded">
+      <input type="email" name="email" placeholder="Correo electrónico" required class="w-full p-3 border border-[#4E2D8E] rounded">
+      <input name="empresa" placeholder="Empresa (opcional)" class="w-full p-3 border border-[#4E2D8E] rounded">
+      <textarea name="mensaje" rows="4" placeholder="Tu mensaje" required class="w-full p-3 border border-[#4E2D8E] rounded"></textarea>
+      <button type="submit" class="w-full bg-[#4E2D8E] hover:bg-[#3d2475] text-white py-3 rounded font-semibold">Enviar mensaje</button>
+      <p id="thanks" class="hidden text-center text-[#4E2D8E] font-semibold">¡Gracias! Te contactaremos pronto.</p>
+    </form>
+  </section>
+
+  <!-- Redes sociales -->
+  <section class="py-10 bg-[#1E1E1E]">
+    <h2 class="sr-only">Síguenos</h2>
+    <div class="flex justify-center gap-6">
+      <a href="#" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#4E2D8E] transition">
+        <span class="sr-only">TikTok</span>
+        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525 2.118A4.576 4.576 0 0116.435 5.942v3.137a1 1 0 00.916.995 11.45 11.45 0 012.766.702.852.852 0 01.696.852v1.986a.852.852 0 01-.852.852H13.5V14.1A2.1 2.1 0 0011.4 12H9.3A2.1 2.1 0 007.2 14.1v4.707A2.1 2.1 0 009.3 20.905h3.2a2.1 2.1 0 002.1-2.098V12h2.527a.852.852 0 00.852-.852V9.162a.852.852 0 00-.852-.852h-2.527V5.942a2.576 2.576 0 00-4.727-1.138z"/></svg>
+      </a>
+      <a href="#" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#4E2D8E] transition">
+        <span class="sr-only">Facebook</span>
+        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2c-5.523 0-10 4.477-10 10 0 5.016 3.657 9.176 8.411 9.876V14.88H8.084v-2.88h2.327v-2.181c0-2.31 1.353-3.585 3.486-3.585 1.018 0 1.9.076 2.155.11v2.54h-1.509c-1.19 0-1.424.567-1.424 1.396v1.83H17.8l-.462 2.88h-2.35v6.996C18.343 21.176 22 17.016 22 12c0-5.523-4.477-10-10-10z"/></svg>
+      </a>
+      <a href="#" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#4E2D8E] transition">
+        <span class="sr-only">Instagram</span>
+        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M7.8 2C4.545 2 2 4.545 2 7.8v8.4c0 3.255 2.545 5.8 5.8 5.8h8.4c3.255 0 5.8-2.545 5.8-5.8V7.8c0-3.255-2.545-5.8-5.8-5.8H7.8zM12 7.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm5.5-.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z"/></svg>
+      </a>
+      <a href="#" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#4E2D8E] transition">
+        <span class="sr-only">LinkedIn</span>
+        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M20.5 2H3.5A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19V9H5v10h3zm-1.5-12A1.5 1.5 0 116 5.5 1.5 1.5 0 016.5 7zM19 19h-3.35c-1.15 0-2.15-.42-2.85-1.19V19h-3V9h3v1.88c.45-.7 1.25-1.28 2.3-1.28 2.05 0 3.7 1.8 3.7 4.25V19z"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-gray-400 bg-[#1E1E1E]">
+    © 2025 Cascos Expertise Outsourcing — <a href="mailto:ventas@ceo.mx" class="text-[#4E2D8E] hover:underline">ventas@ceo.mx</a>
+  </footer>
 </body>
 </html>
