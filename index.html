@@ -3,25 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cascos Expertise Outsourcing</title>
-
-  <!-- Tailwind + configuración -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: '#4E2D8E',
-            graphite: '#1E1E1E',
-            smoke: '#F9FAFB'
-          }
-        }
-      }
-    }
-  </script>
+  <title>CEO · Cascos Expertise Outsourcing</title>
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Fuente Poppins -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <style>
     body {
@@ -29,25 +12,25 @@
     }
   </style>
 </head>
-<body class="bg-graphite text-smoke">
+<body class="bg-neutral-900 text-gray-100">
 
   <!-- HERO -->
-  <section class="min-h-[80vh] flex flex-col items-center justify-center px-6 text-center bg-gradient-to-b from-graphite to-primary/10">
+  <section class="min-h-[80vh] flex flex-col items-center justify-center px-6 text-center">
     <img src="img/logo-ceo.png" alt="Logo CEO" class="w-48 mb-6" />
     <h1 class="text-4xl font-semibold max-w-2xl leading-tight">
       Fianzas inteligentes. Sin humo. Sin sorpresas.
     </h1>
-    <a href="#contacto" class="mt-8 bg-primary hover:bg-primary/80 px-6 py-3 rounded-lg text-white font-medium text-lg">
+    <a href="#contacto" class="mt-8 bg-purple-800 hover:bg-purple-700 px-6 py-3 rounded-lg text-white font-medium text-lg">
       Solicita diagnóstico sin costo
     </a>
   </section>
 
   <!-- PAQUETES -->
-  <section class="bg-smoke text-graphite py-20 px-6">
+  <section class="bg-gray-100 text-neutral-900 py-20 px-6">
     <h2 class="text-3xl font-semibold text-center mb-12">Paquetes de Consultoría</h2>
     <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="border-2 border-primary rounded-lg p-6 bg-white hover:-translate-y-1 transition">
-        <h3 class="text-xl font-semibold text-primary mb-4">Bronce</h3>
+      <div class="border-2 border-purple-800 rounded-lg p-6 bg-white hover:-translate-y-1 transition">
+        <h3 class="text-xl font-semibold text-purple-800 mb-4">Bronce</h3>
         <ul class="mb-4 space-y-2 text-sm">
           <li>✔ Revisión de póliza</li>
           <li>✔ Informe de riesgos</li>
@@ -55,8 +38,8 @@
         </ul>
         <p class="text-2xl font-bold">$7 500 MXN</p>
       </div>
-      <div class="border-2 border-primary rounded-lg p-6 bg-white hover:-translate-y-1 transition">
-        <h3 class="text-xl font-semibold text-primary mb-4">Plata</h3>
+      <div class="border-2 border-purple-800 rounded-lg p-6 bg-white hover:-translate-y-1 transition">
+        <h3 class="text-xl font-semibold text-purple-800 mb-4">Plata</h3>
         <ul class="mb-4 space-y-2 text-sm">
           <li>✔ Todo lo de Bronce</li>
           <li>✔ Negociación con afianzadora</li>
@@ -64,8 +47,8 @@
         </ul>
         <p class="text-2xl font-bold">$15 000 MXN</p>
       </div>
-      <div class="border-2 border-primary rounded-lg p-6 bg-white hover:-translate-y-1 transition">
-        <h3 class="text-xl font-semibold text-primary mb-4">Oro</h3>
+      <div class="border-2 border-purple-800 rounded-lg p-6 bg-white hover:-translate-y-1 transition">
+        <h3 class="text-xl font-semibold text-purple-800 mb-4">Oro</h3>
         <ul class="mb-4 space-y-2 text-sm">
           <li>✔ Todo lo de Plata</li>
           <li>✔ Plan integral de mitigación</li>
@@ -77,21 +60,20 @@
   </section>
 
   <!-- FORMULARIO -->
-  <section id="contacto" class="py-20 px-6 bg-graphite text-smoke">
+  <section id="contacto" class="py-20 px-6 bg-neutral-900 text-gray-100">
     <h2 class="text-3xl font-semibold text-center mb-10">Contáctanos</h2>
     <form action="https://formspree.io/f/your_form_id" method="POST" class="max-w-xl mx-auto space-y-5">
-      <input name="nombre" required placeholder="Nombre completo" class="w-full p-3 rounded border border-primary bg-white text-graphite" />
-      <input type="email" name="email" required placeholder="Correo electrónico" class="w-full p-3 rounded border border-primary bg-white text-graphite" />
-      <textarea name="mensaje" rows="4" required placeholder="Tu mensaje" class="w-full p-3 rounded border border-primary bg-white text-graphite"></textarea>
-      <button type="submit" class="w-full bg-primary hover:bg-primary/80 text-white py-3 rounded font-semibold">
+      <input name="nombre" required placeholder="Nombre completo" class="w-full p-3 rounded border border-purple-800 bg-white text-neutral-900" />
+      <input type="email" name="email" required placeholder="Correo electrónico" class="w-full p-3 rounded border border-purple-800 bg-white text-neutral-900" />
+      <textarea name="mensaje" rows="4" required placeholder="Tu mensaje" class="w-full p-3 rounded border border-purple-800 bg-white text-neutral-900"></textarea>
+      <button type="submit" class="w-full bg-purple-800 hover:bg-purple-700 text-white py-3 rounded font-semibold">
         Enviar mensaje
       </button>
     </form>
   </section>
 
-  <footer class="text-center text-sm text-gray-400 bg-graphite py-6">
+  <footer class="text-center text-sm text-gray-400 bg-neutral-900 py-6">
     © 2025 Cascos Expertise Outsourcing
   </footer>
-
 </body>
 </html>
